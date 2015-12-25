@@ -1,0 +1,39 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  margin-bottom: 150px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 60px;
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 960px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+#calendar {
+	margin: 0 auto;
+}
